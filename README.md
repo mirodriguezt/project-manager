@@ -33,4 +33,5 @@ project-manager-api:
 | GET    |/activity/all/{projectid}/{status} | Returns all activities of a project with a specific status per page |
 
 project-manager-front:
+
   A view of projects and their relationship to clients and activities is presented. The status of both the project and the activity can be changed by clicking on them.
