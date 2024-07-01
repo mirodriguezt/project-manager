@@ -2,8 +2,8 @@
 
 ### Running
 
-project-manager-api 
-  Run docker
+project-manager-api:
+ -  Run docker
   - Execute docker-compose up
   - Postgres work with port 5532
   - To review swagger access: -> http://localhost:8090/swagger-ui/index.html
@@ -32,3 +32,5 @@ project-manager-api
 | GET    |/activity/all/{projectid} | Returns all activities of a project per page |
 | GET    |/activity/all/{projectid}/{status} | Returns all activities of a project with a specific status per page |
 
+project-manager-front:
+  A view of projects and their relationship to clients and activities is presented. The status of both the project and the activity can be changed by clicking on them.
